@@ -29,7 +29,7 @@ class Utilities
         $mail->Password = 'tj_E1&b>HpR4';
 
         $mail->setFrom('team@psgpropertymanagement.com', 'PSG Mortgages');
-        $mail->addAddress('anoop@psginfobiz.com', 'DEV Account');
+        $mail->addAddress('info@psgmortgages.com', 'Website Lead');
         if ($mail->addReplyTo($prospectEmail)) {
             $mail->Subject = $subject;
             $mail->isHTML(false);
