@@ -5,26 +5,6 @@
 <?php
 
 include './includes/header.php';
-include './Classes/Utilities.php';
-
-if (isset($_POST['email'])) {
-
-    $formData = [
-        'Email' => $_POST['email'],
-        'First Name' => $_POST['firstName'],
-        'Last Name' => $_POST['lastName'],
-        'Interested Area' => $_POST['interestedArea'],
-        'Message' => $_POST['message'],
-    ];
-
-    $resp = '';
-    $util = new Utilities();
-    $resp = $util->sendEmail($formData);
-    header("Location:index.php");
-}
-
-
-
 ?>
 
 <body>

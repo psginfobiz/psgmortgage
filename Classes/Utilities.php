@@ -1,9 +1,9 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+require '../PHPMailer/src/Exception.php';
+require '../PHPMailer/src/PHPMailer.php';
+require '../PHPMailer/src/SMTP.php';
 
 class Utilities
 {
@@ -39,8 +39,6 @@ class Utilities
             } else {
                 $msg = 'Message sent! Thanks for contacting us.';
             }
-        } else {
-            $msg = 'Share it with us!';
         }
 
         return $msg;

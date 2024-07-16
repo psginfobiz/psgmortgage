@@ -47,29 +47,30 @@
                             </div>
                         </div>
                         <div class="col-lg-7">
-                            <form id="contact-form" method="post" action="index.php" autocomplete="off">
+                            <form id="contact-form" onsubmit="return false" autocomplete="off">
                                 <div class="card-body position-relative">
                                     <div class="row mt-4">
                                         <div class="col-md-6">
                                             <div class="input-group input-group-static mb-4">
                                                 <label>First name</label>
-                                                <input class="form-control" placeholder="eg. Lucas"
-                                                    aria-label="First Name..." type="text" name="firstName">
+                                                <input class="form-control" placeholder="eg. Lucas" required
+                                                    aria-label="First Name..." type="text" name="firstName"
+                                                    id="firstName">
                                             </div>
                                         </div>
                                         <div class="col-md-6 ps-2">
                                             <div class="input-group input-group-static mb-4">
                                                 <label>Last name</label>
-                                                <input type="text" class="form-control" placeholder="eg. Jones"
-                                                    aria-label="Last Name..." name="lastName">
+                                                <input type="text" class="form-control" required placeholder="eg. Jones"
+                                                    aria-label="Last Name..." name="lastName" id="lastName">
                                             </div>
                                         </div>
                                     </div>
                                     <div>
                                         <div class="input-group input-group-static mb-4">
                                             <label>Email address</label>
-                                            <input type="email" class="form-control"
-                                                placeholder="eg. lucas@creative-tim.com" name="email">
+                                            <input type="email" class="form-control" required
+                                                placeholder="eg. lucas@creative-tim.com" name="email" id="email">
                                         </div>
                                     </div>
                                     <label>What are you interested on?</label>
@@ -108,8 +109,11 @@
                                         <textarea name="message" class="form-control" id="message" rows="3"
                                             name="message"></textarea>
                                     </div>
+                                    <span id="validationResult" class="py-1 text-center">
+                                        
+                                    </span>
                                     <div class="text-end mt-4">
-                                        <button type="submit" class="btn bg-gradient-dark mb-0">Send
+                                        <button onclick="handleContactForm();" class="btn bg-gradient-dark mb-0">Send
                                             message</button>
                                     </div>
                                 </div>
