@@ -1,11 +1,11 @@
 <!-- Navbar Light -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white z-index-3 py-3">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white z-index-3 py-2 h-58">
   <div class="container">
     <a href="/" class="navbar-brand round">
       <img src="/assets/img/company-logo-transperent.png" width="140" height="auto" alt="Company Logo" />
     </a>
-    <a href="/index.php#contactSection" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 ms-auto d-lg-none d-block">Contact Us</a>
+    <a href="/index.php#contactSection" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 ms-auto d-lg-none  d-block">Apply Now</a>
     <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon mt-2">
@@ -21,8 +21,13 @@
           <a href="/" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
             role="button">
             Home
-            <!-- <img src="/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1"> -->
           </a>
+          <li class="nav-item mx-2">
+          <a href="/index.php#aboutUsSection"
+            class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
+            About Us
+          </a>
+        </li>
         </li>
         <li class="nav-item dropdown dropdown-hover mx-2">
           <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button"
@@ -38,7 +43,19 @@
 
           </ul>
         </li>
-
+        
+        <li class="nav-item mx-2">
+          <a href="/calculator.php"
+            class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
+            Mortgage Calculator
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a href="/index.php#contactSection"
+            class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center bg-info  btn-round" role="button">
+            Apply Now
+          </a>
+        </li>
         <li class="nav-item mx-2">
           <a href="/index.php#contactSection"
             class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">

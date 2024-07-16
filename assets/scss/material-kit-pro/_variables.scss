@@ -53,15 +53,25 @@ $colors: (
 ) !default;
 // scss-docs-end colors-map
 
-$primary:       #e91e63 !default;
-$secondary:     #7b809a !default;
-$info:          #1A73E8 !default;
-$success:       #4CAF50 !default;
-$warning:       #fb8c00 !default;
-$danger:        #F44335 !default;
-$light:         $gray-200 !default;
-$dark:          $h-color !default;
-$dark-blue:     #1A237E !default;
+// $primary:       #e91e63 !default;
+// $secondary:     #7b809a !default;
+// $info:          #1A73E8 !default;
+// $success:       #4CAF50 !default;
+// $warning:       #fb8c00 !default;
+// $danger:        #F44335 !default;
+// $light:         $gray-200 !default;
+// $dark:          $h-color !default;
+// $dark-blue:     #1A237E !default;7195915
+
+$primary: #7b809a !default;
+$secondary: #1A73E8 !default;
+$info: #ffc107 !default;
+$success: #4CAF50 !default;
+$warning: #fb8c00 !default;
+$danger: #F44335 !default;
+$light: White !default;
+$dark: #333333 !default;
+$dark-blue: #000000 !default;
 
 
 // scss-docs-start theme-colors-map
@@ -81,11 +91,17 @@ $theme-colors: (
 
 
 // Gradient colors
-$primary-gradient:            #EC407A !default;
-$primary-gradient-state:      #D81B60 !default;
+// $primary-gradient:            #EC407A !default;
+// $primary-gradient-state:      #D81B60 !default;
 
-$secondary-gradient:          #747b8a !default;
-$secondary-gradient-state:    #495361 !default;
+// $secondary-gradient:          #747b8a !default;
+// $secondary-gradient-state:    #495361 !default;
+
+$primary-gradient: #7b809a !default; /* Start color (Current Secondary Grayish Blue) */
+$primary-gradient-state: #1A73E8 !default; /* End color (subtle contrast) */
+
+$secondary-gradient: #ffc107 !default; /* Start color (accent from logo) */
+$secondary-gradient-state: white !default; /* End color (brighter contrast) */
 
 $info-gradient:               #49a3f1 !default;
 $info-gradient-state:         #1A73E8 !default;
@@ -99,11 +115,16 @@ $danger-gradient-state:       #E53935 !default;
 $warning-gradient:            #FFA726 !default;
 $warning-gradient-state:      #FB8C00 !default;
 
-$dark-gradient:               #42424a !default;
-$dark-gradient-state:         #191919 !default;
+// $dark-gradient:               #42424a !default;
+// $dark-gradient-state:         #191919 !default;
 
-$light-gradient:              #EBEFF4 !default;
-$light-gradient-state:        #CED4DA !default;
+// $light-gradient:              #EBEFF4 !default;
+// $light-gradient-state:        #CED4DA !default;
+$dark-gradient: #333333 !default; /* Current Dark Gray */
+$dark-gradient-state: #191919 !default; /* Darker gray */
+
+$light-gradient: white !default; /* Start color (provides good contrast for text) */
+$light-gradient-state: #F2F2F2 !default; /* End color (subtle contrast) */
 
 $dark-gradient-dark:          #323a54 !default;
 $dark-gradient-state-dark:    #1a2035 !default;

@@ -1,10 +1,9 @@
 <header>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <title>
-        Material Kit 2 PRO by Creative Tim
+       PSG Mortgages
     </title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css"
@@ -21,8 +20,7 @@
 
     <?php include 'navbar.php' ?>
 
-    <div class="page-header min-vh-50">
-
+    <div style="padding-top: 58px;!important">
         <div id="carouselExampleControls" class="carousel slide container-fluid p-0" data-bs-ride="carousel">
             <div class="carousel-inner mb-4">
                 <div class="carousel-item active">
