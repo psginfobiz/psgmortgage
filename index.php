@@ -15,7 +15,7 @@ include './includes/header.php';
                 <div class="col-lg-6 mx-auto text-center">
                     <h2>About Us</h2>
                     <br/>
-                    <!-- <p class="font-weight-normal">Contact Us soon.</p> -->
+                    <p class="font-weight-normal">A brief description about ourselfs.</p>
                 </div>
             </div>
             <div class="row align-items-center">
